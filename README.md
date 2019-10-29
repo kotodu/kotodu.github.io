@@ -1,10 +1,11 @@
 # busroutemap.github.io
 サイト構築中
-name : busroutemap(a.k.a kotodu)
 
-twitter : [@busroutemap](https://twitter.com/busroutemap)
-mastodon(山陰交通丼) : [@busroutemap](https://mstdn.sanin.link/@busroutemap)
-qiita : 
+- name : busroutemap(a.k.a kotodu)
+
+- twitter : [@busroutemap](https://twitter.com/busroutemap)
+- mastodon(山陰交通丼) : [@busroutemap](https://mstdn.sanin.link/@busroutemap)
+- qiita : 
 
 # 得意
 - busmap
