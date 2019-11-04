@@ -10,16 +10,18 @@
 # 得意
 - busmap
 - Adobe illustrator
+- GTFS-JP(静的)
 - illustrator script
 - javascript
     - vuejs
     - leafletjs
     - express(勉強中)
-- java
+- java(勉強中)
 
 # 代表作品
 ## ttrmap
 - 鳥取の交通マップを重ね合わせるwebアプリ
+- leafletjs
 - [https://busroutemap.github.io/ttrmap](https://busroutemap.github.io/ttrmap)
 
 ## 所属大学構内にてバスマップ展示
