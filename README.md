@@ -3,10 +3,15 @@
 
 - H.N. : ***busroutemap***(a.k.a kotodu,ことづ)
 
-- twitter : [@busroutemap](https://twitter.com/busroutemap)
-- mastodon(山陰交通丼) : [@busroutemap](https://mstdn.sanin.link/@busroutemap)
-- qiita : [https://qiita.com/busroutemap](https://qiita.com/busroutemap)
-- github : [https://github.com/busroutemap](https://github.com/busroutemap)
+## SNS
+- Twitter : [@busroutemap](https://twitter.com/busroutemap)
+- 山陰交通丼 : [@busroutemap](https://mstdn.sanin.link/@busroutemap)
+- bookwor.ms : [@kotodu](https://bookwor.ms/@kotodu)
+- misskey.io : [@kot](https://misskey.io/@kot)
+
+## 技術
+- Qiita : [https://qiita.com/busroutemap](https://qiita.com/busroutemap)
+- GitHub : [https://github.com/busroutemap](https://github.com/busroutemap)
 
 # 得意
 - busmap
@@ -35,7 +40,9 @@
 - 画像出力と名称変更、フォルダ管理までを1スクリプトで
 - [https://github.com/busroutemap/illustrator-to-MapTiles](https://github.com/busroutemap/illustrator-to-MapTiles)
 
-## 卒業研究(取組中)
+## 卒業研究
+- [こちらで公開中](https://github.com/busroutemap/Bus-Stops-Information-from-GTFS)
+- サーバーサイドを用いて運行系統図を描画・PDF保存するシステム
 
 # 経歴
 - (2011.04)都内の某中高一貫校入学
