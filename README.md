@@ -16,16 +16,18 @@
 
 ## 嗜好
 - 読書
+    - ジャンルを問わず、幅広く
 - まちあるき
+    - GPSログをつけながら
 - ラジオ
 
-## SNS
+## 私的SNS
 - Twitter : [@busroutemap](https://twitter.com/busroutemap)
 - 山陰交通丼 : [@busroutemap](https://mstdn.sanin.link/@busroutemap)
 - bookwor.ms : [@kotodu](https://bookwor.ms/@kotodu)
 - misskey.io : [@kot](https://misskey.io/@kot)
 
-## 技術
+## 技術関連
 - Qiita : [https://qiita.com/busroutemap](https://qiita.com/busroutemap)
 - GitHub : [https://github.com/busroutemap](https://github.com/busroutemap)
 
@@ -46,6 +48,7 @@
         - 貸出冊数1位の表彰
 - Adobe illustrator
     - illustrator拡張スクリプト制作
+    - 高校1年から7年以上使用
 - GTFS-JP
 - Javascript
     - Vue.js
@@ -58,44 +61,55 @@
 - JavaScript
     - Express.js
     - node.js
-- 応用情報技術者試験
 - OpenStreetMap
     - OverpassAPI
     - JOSM
     - バスリレーション
 - SQL
+    - postgreSQL
 - sass
+    - scss記法
+    - レスポンシブデザイン
+- PHP
+    - laravel
+- docker
+
 
 ## 挑戦予定
 - 応用情報技術者試験
-- ODPT
+- 東京公共交通オープンデータチャレンジ
+- TypeScript
 
 ## 挑戦構想
 - GIS
+- 情報処理技術者試験(プロジェクトマネージャ試験)
+- mapbox GL JS
 
 # 代表作品
-## ttrmap
+## バスマップ関連
+### ttrmap
 - 鳥取の交通マップを重ね合わせるwebアプリ
 - leafletjs
 - [https://busroutemap.github.io/ttrmap](https://busroutemap.github.io/ttrmap)
 
-## 所属大学構内にてバスマップ展示
+### 所属大学構内にてバスマップ展示
 - 2016年冬頃から
 - この他、2016年度,2018年度,2019年度の大学祭へバスマップ出展
 
-## その他鳥取についてのバスマップ制作
+### その他鳥取についてのバスマップ制作
 - [https://busroutemap.github.io/tottori](https://busroutemap.github.io/tottori)
 
 ## OpenStreetMapの編集
 - 鳥取県東部の日本交通一部路線のバスリレーション
-- たかさごでオープンデータソンに関連した高砂市の編集
+- たかさごでオープンデータソンに関連した兵庫県高砂市の編集
 
-## illustrator-to-MapTiles
+## 自作スクリプト関連
+### illustrator-to-MapTiles
 - illustratorからマップタイルを出力する、illustrator拡張スクリプト
 - 画像出力と名称変更、フォルダ管理までを1スクリプトで
 - [https://github.com/busroutemap/illustrator-to-MapTiles](https://github.com/busroutemap/illustrator-to-MapTiles)
 
-## illustrator-Line-Offset
+### illustrator-Line-Offset
 - 強化版パスのオフセット
 - 指定間隔で何本でもオフセット可能
 - [https://github.com/busroutemap/illustrator-Line-Offset](https://github.com/busroutemap/illustrator-Line-Offset)
