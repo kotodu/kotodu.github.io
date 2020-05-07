@@ -3,6 +3,7 @@
 - 技術習得に注力中で更新停滞中
 
 ---
+
 ## 名前
 - H.N. : ***kotodu***
     - a.k.a  ことづ,異図
@@ -61,6 +62,7 @@
 - JavaScript
     - Express.js
     - node.js
+    - TypeScript
 - OpenStreetMap
     - OverpassAPI
     - JOSM
@@ -70,15 +72,15 @@
 - sass
     - scss記法
     - レスポンシブデザイン
-- PHP
-    - laravel
 - docker
-
+- GitHub Actions
+    - TypeScriptの勉強も兼ねたリポジトリ
+    - [https://github.com/busroutemap/ts-test](https://github.com/busroutemap/ts-test)
 
 ## 挑戦予定
 - 応用情報技術者試験
 - 東京公共交通オープンデータチャレンジ
-- TypeScript
+- 単体テスト・結合テスト
 
 ## 挑戦構想
 - GIS
