@@ -19,3 +19,17 @@
     - 2:出る
 ## desc
 - 全角12文字以内のstring
+
+# certification.json
+## id
+- 6桁のNumber
+    - yyyymm
+## name
+- string
+## passed
+- 合否を示すboolean
+## score
+- Number
+    - 得点率%
+## desc
+- string
