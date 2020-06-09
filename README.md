@@ -23,6 +23,7 @@
 - まちあるき
     - GPSログをつけながら
 - ラジオ
+- 弁当
 
 ## 私的SNS
 - Twitter : [@busroutemap](https://twitter.com/busroutemap)
@@ -82,7 +83,6 @@
 ## 挑戦予定
 - 応用情報技術者試験
 - 東京公共交通オープンデータチャレンジ
-- 単体テスト・結合テスト
 
 ## 挑戦構想
 - GIS
