@@ -79,6 +79,7 @@
 - GitHub Actions
     - TypeScriptの勉強も兼ねたリポジトリ
     - [https://github.com/busroutemap/ts-test](https://github.com/busroutemap/ts-test)
+- VB.NET
 
 ## 挑戦予定
 - 応用情報技術者試験
