@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import router from './router'
-import Sample from './Sample.vue'
+// import Sample from './Sample.vue'
+import App from './App.vue'
 
 Vue.config.productionTip = false
 
@@ -10,5 +11,5 @@ Vue.use(VueCompositionApi);
 
 new Vue({
   router,
-  render: h => h(Sample)
+  render: h => h(App)
 }).$mount('#app')
