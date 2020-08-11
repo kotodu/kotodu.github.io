@@ -20,23 +20,18 @@
             <div class="row g-5 text-center my-auto">
                 <icon-sns-link
                 aHref="https://github.com/kotodu"
-                imgName="/github.svg"
+                imgName="/img/github.svg"
                 pText="GitHub : @kotodu"
                 />
                 <icon-sns-link
-                aHref="https://github.com/kotodu"
-                imgName="/Twitter_Social_Icon_Rounded_Square_Color.svg"
+                aHref="https://twitter.com/kotodu"
+                imgName="/img/Twitter_Social_Icon_Rounded_Square_Color.svg"
                 pText="Twitter : @kotodu"
                 />
                 <icon-sns-link
-                aHref="https://github.com/kotodu"
-                imgName="/Twitter_Social_Icon_Rounded_Square_Color.svg"
-                pText="Twitter : @kotodu"
-                />
-                <icon-sns-link
-                aHref="https://github.com/kotodu"
-                imgName="/Twitter_Social_Icon_Rounded_Square_Color.svg"
-                pText="Twitter : @kotodu"
+                aHref="https://qiita.com/kotodu"
+                imgName="/img/qiita.svg"
+                pText="Qiita : @kotodu"
                 />
             </div>
         </div>
