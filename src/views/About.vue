@@ -1,6 +1,22 @@
 <template>
     <div class="about">
-        <h1>This is an about page</h1>
+        <div class="my-5 text-center">
+            <h1 class="my-3">ことづ</h1>
+            <p>東京都在住、システムエンジニア</p>
+            <p>
+                大学時代に取り組んだ、バスマップ制作をきっかけに、<br>
+                交通とITの関わりに興味を抱く。
+            </p>
+            <p>
+                現在はあるSIerで、システムエンジニアとして勤務。<br>
+                コーディングや資格取得を積極的に行っている。
+            </p>
+            <p>
+                勉強熱心で、さらに何でも意欲的に取り組むのが自慢。<br>
+                一方で、うっかりミスが多い一面も。<br>
+                読書、まちあるき、弁当作りが趣味。
+            </p>
+        </div>
         <div class="w-50 mx-auto">
             <digest-box
             title="全般"
