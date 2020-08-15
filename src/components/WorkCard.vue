@@ -25,14 +25,30 @@
                     v-text="item"
                     />
                 </ul>
+                <!-- 両方ある場合 -->
                 <div
                 class="btn-group"
-                v-show="links.demo !==undefined && links.github !==undefined">
+                v-if="links.demo !==undefined && links.github !==undefined">
                     <a
                     :href="links.demo"
+                    v-show="links.demo !==undefined"
                     class="btn btn-primary">DEMO</a>
                     <a
                     :href="links.github"
+                    v-show="links.github !==undefined"
+                    class="btn btn-dark">GitHub</a>
+                </div>
+                
+                <!-- 片方しかない場合 -->
+                <div
+                v-else>
+                    <a
+                    :href="links.demo"
+                    v-show="links.demo !==undefined"
+                    class="btn btn-primary">DEMO</a>
+                    <a
+                    :href="links.github"
+                    v-show="links.github !==undefined"
                     class="btn btn-dark">GitHub</a>
                 </div>
             </div>
@@ -57,19 +73,22 @@ export default defineComponent({
             type:Array
         },
         imgSrc:{
-            type:String
+            type:String,
+            required:true
         },
         title:{
-            type:String
+            type:String,
+            required:true
         },
         description:{
-            type:String
+            type:String,
+            required:true
         },
         githubURL:{
-            type:String
+            type:String,
         },
         demoURL:{
-            type:String
+            type:String,
         }
     },
     setup(props:Props){
