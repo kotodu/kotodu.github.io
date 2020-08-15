@@ -3,7 +3,7 @@
         <home-header/>
         <div class="text-center">
             <a
-            href="#h1"
+            href="/about"
             class="text-decoration-none">
                 <button
                 type="button"
