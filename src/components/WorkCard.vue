@@ -1,7 +1,7 @@
 <template>
     <div class="col-lg-3">
         <div
-        class="card mx-auto"
+        class="card mx-auto h-100"
         >
             <img
             :src="links.img"
@@ -25,6 +25,10 @@
                     v-text="item"
                     />
                 </ul>
+            </div>
+            <div
+            class="card-footer bg-transparent border-white"
+            >
                 <!-- 両方ある場合 -->
                 <div
                 class="btn-group"
