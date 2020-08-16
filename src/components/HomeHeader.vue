@@ -3,7 +3,7 @@
         <div
         class="text-center">
             <img
-            src="@/assets/logo.png"
+            src="/img/topIconKotodu.png"
             width="200"
             height="200"/>
         </div>
