@@ -15,8 +15,8 @@
                 />
 
                 <!-- worksへのボタン -->
-                <a
-                href="/works"
+                <router-link
+                to="/works"
                 class="text-decoration-none">
                     <button
                     type="button"
@@ -24,7 +24,7 @@
                     >
                         制作実績
                     </button>
-                </a>
+                </router-link>
             </section>
 
             <!-- スキル紹介セクション -->

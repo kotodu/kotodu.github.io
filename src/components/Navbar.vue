@@ -16,54 +16,54 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
             <li class="nav-item mx-2">
-                <a
+                <router-link
                 class="nav-link active"
-                href="/"
+                to="/"
                 v-if="$route.path==='/'"
                 >
                     <span class="d-lg-none font-weight-bold"> > </span>
                     <span v-text="linksText.link1"/>
-                </a>
-                <a
+                </router-link>
+                <router-link
                 class="nav-link"
-                href="/"
+                to="/"
                 v-else
                 >
                     <span class="d-lg-none font-weight-bold"> > </span>
                     <span v-text="linksText.link1"/>
-                </a>
+                </router-link>
             </li>
             <li class="nav-item mx-2">
-                <a class="nav-link active"
-                href="/about"
+                <router-link class="nav-link active"
+                to="/about"
                 v-if="$route.path==='/about'"
                 >
                     <span class="d-lg-none font-weight-bold"> > </span>
                     <span v-text="linksText.link2"/>
-                </a>
-                <a class="nav-link"
-                href="/about"
+                </router-link>
+                <router-link class="nav-link"
+                to="/about"
                 v-else
                 >
                     <span class="d-lg-none font-weight-bold"> > </span>
                     <span v-text="linksText.link2"/>
-                </a>
+                </router-link>
             </li>
             <li class="nav-item mx-2">
-                <a class="nav-link active"
-                href="/works"
+                <router-link class="nav-link active"
+                to="/works"
                 v-if="$route.path==='/works'"
                 >
                     <span class="d-lg-none font-weight-bold"> > </span>
                     <span v-text="linksText.link3"/>
-                </a>
-                <a class="nav-link"
-                href="/works"
+                </router-link>
+                <router-link class="nav-link"
+                to="/works"
                 v-else
                 >
                     <span class="d-lg-none font-weight-bold"> > </span>
                     <span v-text="linksText.link3"/>
-                </a>
+                </router-link>
             </li>
             </ul>
         </div>
