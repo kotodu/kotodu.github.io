@@ -13,11 +13,12 @@
                     <a
                     :href="work.url"
                     class="text-decoration-none">
-                        <object
-                        type="image/svg+xml"
-                        data="/img/github.svg"
+                        <img
                         width="32"
-                        height="32"></object>
+                        height="32"
+                        class="py-0 my-0 mx-auto"
+                        src="/img/github.svg"
+                        />
                     </a>
                 </h3>
 
