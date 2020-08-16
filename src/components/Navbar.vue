@@ -3,7 +3,8 @@
     <nav
     class="navbar navbar-expand-lg navbar-dark bg-dark">
         <span class="navbar-brand px-5">kotodu.io</span>
-        <button
+        <!-- vueに実装した所、なぜか不具合…… -->
+        <!-- <button
         class="navbar-toggler" 
         type="button"
         data-toggle="collapse"
@@ -12,8 +13,23 @@
         aria-expanded="false"
         aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <!-- 
+        <div
+        class="collapse navbar-collapse"
+        id="navbarNav"> -->
+
+        <!-- 仕方ないので、vue.jsのクリック動作で解決 -->
+        <button
+        class="navbar-toggler"
+        @click="show.mobileNav= !show.mobileNav"
+        >
+            <span class="navbar-toggler-icon"/>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div
+        v-show="show.mobileNav"
+        class="navbar-collapse"
+        id="navbarNav">
             <ul class="navbar-nav">
             <li class="nav-item mx-2">
                 <router-link
@@ -81,8 +97,14 @@ export default defineComponent({
             link2:"About",
             link3:"Works"
         });
+        const show = reactive({
+            // モバイル時の表示フラグ
+            // 最初はfalse
+            mobileNav:false
+        });
         return {
-            linksText
+            linksText,
+            show
         }
     }
 })
