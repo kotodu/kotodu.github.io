@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-4 text-center">
                 <img
-                :src="imgSrc"
+                :src="src"
                 class="w-50 my-5"
                 >
             </div>
@@ -13,12 +13,12 @@
                     v-text="title"/>
                     <p
                     class="card-text"
-                    v-text="description"
+                    v-text="summary"
                     />
                     <ul class="list-group list-group-flush">
                         <li
                         class="list-group-item"
-                        v-for="object in lists"
+                        v-for="object in objects"
                         :key="object"
                         v-text="object"
                         />
@@ -54,15 +54,23 @@ export default defineComponent({
         }
     },
     setup(props:Props){
-        const lists = props.lists;
-        const imgSrc = props.imgSrc;
-        const title = props.title;
-        const description = props.description;
+        const objects = computed(()=>{
+            return props.lists
+        });
+        const src = computed(()=>{
+            return props.imgSrc
+        });
+        const head = computed(()=>{
+            return props.title
+        });
+        const summary = computed(()=>{
+            return props.description
+        });
         return {
-            lists,
-            imgSrc,
-            title,
-            description
+            objects,
+            src,
+            head,
+            summary
         }
     },
     components:{
