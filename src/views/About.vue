@@ -1,66 +1,88 @@
 <template>
     <div class="about">
-        <div class="my-5 text-center">
-            <h1 class="my-3">ことづ</h1>
-            <p>東京都在住、システムエンジニア</p>
-            <p>
-                大学時代に取り組んだ、バスマップ制作をきっかけに、<br>
-                交通とITの関わりに興味を抱く。
-            </p>
-            <p>
-                現在はあるSIerで、システムエンジニアとして勤務。<br>
-                コーディングや資格取得を積極的に行っている。
-            </p>
-            <p>
-                勉強熱心で、さらに何でも意欲的に取り組むのが自慢。<br>
-                一方で、うっかりミスが多い一面も。<br>
-                読書、まちあるき、弁当作りが趣味。
-            </p>
-        </div>
-        <div class="w-50 mx-auto">
-            <digest-box
-            title="全般"
-            description="得意とするスキル全般"
-            imgSrc="/img/qiita.svg"
-            :lists="skills"
-            />
-            <digest-box
-            title="資格"
-            description="これまでに取得した資格"
-            imgSrc="/img/qiita.svg"
-            :lists="certifications"
-            />
-            <digest-box
-            title="言語"
-            description="主に得意とする言語。この他にも経験あり"
-            imgSrc="/img/qiita.svg"
-            :lists="langs"
-            />
-            <digest-box
-            title="フレームワーク"
-            description="主に使用しているフレームワーク"
-            imgSrc="/img/qiita.svg"
-            :lists="fws"
-            />
-            <digest-box
-            title="ツール・環境"
-            description="主に使用しているツールや環境"
-            imgSrc="/img/qiita.svg"
-            :lists="envs"
-            />
-            <digest-box
-            title="データベース"
-            description="主に使用しているデータベース"
-            imgSrc="/img/qiita.svg"
-            :lists="dbs"
-            />
-            <digest-box
-            title="地図・地理情報"
-            description="主に触れてきたGISシステムや地図など"
-            imgSrc="/img/qiita.svg"
-            :lists="gis"
-            />
-        </div>
+        <main>
+            <!-- 自己紹介セクション -->
+            <section
+            class="my-5 text-center">
+                <h1>ことづ</h1>
+                <h6 class="read">@Kotodu</h6>
+
+                <!-- 段落数分増やす -->
+                <p
+                v-for="text in introduceText"
+                :key="text"
+                v-text="text"
+                />
+
+                <!-- worksへのボタン -->
+                <a
+                href="/works"
+                class="text-decoration-none">
+                    <button
+                    type="button"
+                    class="btn btn-dark btn-lg px-5"
+                    >
+                        制作実績
+                    </button>
+                </a>
+            </section>
+
+            <!-- スキル紹介セクション -->
+            <section
+            class="my-5 py-3 mx-auto w-75 border-top">
+                <!-- ヘッダー -->
+                <div class="text-center">
+                    <h1>スキル</h1>
+                    <p class="read">得意とする言語やライブラリなど</p>
+                </div>
+
+                <!-- コンテンツ -->
+                <div class="w-75 mx-auto py-2">
+                    <digest-box
+                    title="全般"
+                    description="得意とするスキル全般"
+                    imgSrc="/img/qiita.svg"
+                    :lists="skills"
+                    />
+                    <digest-box
+                    title="資格"
+                    description="これまでに取得した資格"
+                    imgSrc="/img/qiita.svg"
+                    :lists="certifications"
+                    />
+                    <digest-box
+                    title="言語"
+                    description="主に得意とする言語。この他にも経験あり"
+                    imgSrc="/img/qiita.svg"
+                    :lists="langs"
+                    />
+                    <digest-box
+                    title="フレームワーク"
+                    description="主に使用しているフレームワーク"
+                    imgSrc="/img/qiita.svg"
+                    :lists="fws"
+                    />
+                    <digest-box
+                    title="ツール・環境"
+                    description="主に使用しているツールや環境"
+                    imgSrc="/img/qiita.svg"
+                    :lists="envs"
+                    />
+                    <digest-box
+                    title="データベース"
+                    description="主に使用しているデータベース"
+                    imgSrc="/img/qiita.svg"
+                    :lists="dbs"
+                    />
+                    <digest-box
+                    title="地図・地理情報"
+                    description="主に触れてきたGISシステムや地図など"
+                    imgSrc="/img/qiita.svg"
+                    :lists="gis"
+                    />
+                </div>
+            </section>
+        </main>
     </div>
 </template>
 <script lang="ts">
@@ -105,6 +127,9 @@ export default defineComponent({
         const gis = [
             "OpenStreetMap"
         ];
+        const introduceText = [
+            "あいうえお"
+        ];
         return {
             certifications,
             skills,
@@ -112,7 +137,8 @@ export default defineComponent({
             fws,
             envs,
             dbs,
-            gis
+            gis,
+            introduceText
         }
     },
     components:{

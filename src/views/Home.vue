@@ -1,7 +1,8 @@
 <template>
     <div class="home">
         <home-header/>
-        <div class="text-center">
+        <!-- aboutへのボタン -->
+        <section class="text-center">
             <a
             href="/about"
             class="text-decoration-none">
@@ -12,8 +13,10 @@
                     ことづについて
                 </button>
             </a>
-        </div>
-        <div
+        </section>
+
+        <!-- SNSリスト -->
+        <section
         id="icons"
         class="text-center container d-flex w-50"
         >
@@ -34,7 +37,7 @@
                 pText="Qiita : @kotodu"
                 />
             </div>
-        </div>
+        </section>
     </div>
 </template>
 
