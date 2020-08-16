@@ -18,25 +18,51 @@
             <li class="nav-item mx-2">
                 <a
                 class="nav-link active"
-                aria-current="page"
                 href="/"
+                v-if="$route.path==='/'"
                 >
-                <span class="d-lg-none font-weight-bold"> > </span>
-                <span v-text="linksText.link1"/>
+                    <span class="d-lg-none font-weight-bold"> > </span>
+                    <span v-text="linksText.link1"/>
+                </a>
+                <a
+                class="nav-link"
+                href="/"
+                v-else
+                >
+                    <span class="d-lg-none font-weight-bold"> > </span>
+                    <span v-text="linksText.link1"/>
                 </a>
             </li>
             <li class="nav-item mx-2">
+                <a class="nav-link active"
+                href="/about"
+                v-if="$route.path==='/about'"
+                >
+                    <span class="d-lg-none font-weight-bold"> > </span>
+                    <span v-text="linksText.link2"/>
+                </a>
                 <a class="nav-link"
-                href="/about">
-                <span class="d-lg-none font-weight-bold"> > </span>
-                <span v-text="linksText.link2"/>
+                href="/about"
+                v-else
+                >
+                    <span class="d-lg-none font-weight-bold"> > </span>
+                    <span v-text="linksText.link2"/>
                 </a>
             </li>
             <li class="nav-item mx-2">
+                <a class="nav-link active"
+                href="/works"
+                v-if="$route.path==='/works'"
+                >
+                    <span class="d-lg-none font-weight-bold"> > </span>
+                    <span v-text="linksText.link3"/>
+                </a>
                 <a class="nav-link"
-                href="/works">
-                <span class="d-lg-none font-weight-bold"> > </span>
-                <span v-text="linksText.link3"/>
+                href="/works"
+                v-else
+                >
+                    <span class="d-lg-none font-weight-bold"> > </span>
+                    <span v-text="linksText.link3"/>
                 </a>
             </li>
             </ul>
