@@ -95,9 +95,9 @@ import DigestBox from '@/components/DigestBox.vue'
 export default defineComponent({
     setup(){
         const certifications = [
-            "ITパスポート",
+            "ITパスポート試験",
             "基本情報技術者試験",
-            "Java SE 7/8 Bronze Online"
+            "Java SE 7/8 Bronze"
         ];
         const skills = [
             "Webアプリケーション制作",
@@ -112,17 +112,19 @@ export default defineComponent({
         const fws = [
             "Vue.js",
             "Leaflet.js",
+            "Bootstrap",
             "Express.js"
         ];
         const envs = [
             "Node.js",
             "Visual Studio Code",
             "Visual Studio",
-            "Git / GitHub"
+            "Git / GitHub",
+            "Adobe Illustrator"
         ];
         const dbs = [
             "MongoDB",
-            "SQLserver"
+            "Microsoft SQL Server"
         ];
         const gis = [
             "OpenStreetMap"
