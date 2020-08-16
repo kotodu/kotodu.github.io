@@ -30,7 +30,7 @@
                         />
                         <work-card
                         title="卒業研究"
-                        description="GTFSを元に、バス停向けの簡易バス系統図を出力するシステム"
+                        description="GTFSを元に、バス停向けのバス運行系統図を出力するシステム"
                         imgSrc="/img/qiita.svg"
                         githubURL="https://github.com/kotodu/Bus-Stops-Information-from-GTFS"
                         />

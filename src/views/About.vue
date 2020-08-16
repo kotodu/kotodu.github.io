@@ -41,43 +41,43 @@
                     <digest-box
                     title="全般"
                     description="得意とするスキル全般"
-                    imgSrc="/img/qiita.svg"
+                    imgSrc="/img/bootstrap/bi-person-badge.svg"
                     :lists="skills"
                     />
                     <digest-box
                     title="資格"
                     description="これまでに取得した資格"
-                    imgSrc="/img/qiita.svg"
+                    imgSrc="/img/bootstrap/bi-award.svg"
                     :lists="certifications"
                     />
                     <digest-box
                     title="言語"
                     description="主に得意とする言語。この他にも経験あり"
-                    imgSrc="/img/qiita.svg"
+                    imgSrc="/img/bootstrap/bi-file-code.svg"
                     :lists="langs"
                     />
                     <digest-box
-                    title="フレームワーク"
-                    description="主に使用しているフレームワーク"
-                    imgSrc="/img/qiita.svg"
+                    title="フレームワーク・ライブラリ"
+                    description="主に使用しているフレームワーク・ライブラリ"
+                    imgSrc="/img/bootstrap/bi-box-seam.svg"
                     :lists="fws"
                     />
                     <digest-box
                     title="ツール・環境"
                     description="主に使用しているツールや環境"
-                    imgSrc="/img/qiita.svg"
+                    imgSrc="/img/bootstrap/bi-tools.svg"
                     :lists="envs"
                     />
                     <digest-box
                     title="データベース"
                     description="主に使用しているデータベース"
-                    imgSrc="/img/qiita.svg"
+                    imgSrc="/img/bootstrap/bi-hdd.svg"
                     :lists="dbs"
                     />
                     <digest-box
                     title="地図・地理情報"
                     description="主に触れてきたGISシステムや地図など"
-                    imgSrc="/img/qiita.svg"
+                    imgSrc="/img/bootstrap/bi-map.svg"
                     :lists="gis"
                     />
                 </div>
@@ -104,7 +104,7 @@ export default defineComponent({
             "Adobe Illustrator"
         ];
         const langs = [
-            "JavaScript/TypeScript",
+            "JavaScript / TypeScript",
             "CSS, SASS(SCSS)",
             "Illustrator Scripts",
             "VB.NET"
