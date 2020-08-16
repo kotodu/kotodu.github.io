@@ -34,6 +34,37 @@
 ## desc
 - string
 
+# works.json(検討中)
+## id
+- 6桁のNumber
+    - 西暦4桁+追加順の固有番号2桁
+
+## isPinned
+- 固定するかどうかを示すboolean
+    - ひとまずはこの値に関わらずリスト表示
+
+## type
+- 媒体
+    - webアプリ
+    - webサイト
+    - illustratorスクリプト
+
+## name
+- 作品名
+
+## caption
+- 一行説明文
+- 配列にして改行位置で区切る？\nで1つの値に？
+
+# sns.json(検討中)
+- id
+- snsScreen
+- snsIconUrl
+- userid
+- username
+- url
+- urlScreen
+
 # pgskills.json(検討中)
 - id
 - type
