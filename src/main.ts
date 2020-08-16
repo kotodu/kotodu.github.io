@@ -7,8 +7,6 @@ Vue.config.productionTip = false
 
 import VueCompositionApi from "@vue/composition-api";
 
-// 今回はCDNで使用する
-// import bootstrap from 'bootstrap'
 
 Vue.use(VueCompositionApi);
 

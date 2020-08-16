@@ -15,5 +15,6 @@ export default Vue.extend({
 })
 </script>
 <style lang="scss">
-
+// 全体へbootstrapを適用
+@import "~bootstrap/scss/bootstrap";
 </style>
