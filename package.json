@@ -1,6 +1,6 @@
 {
-  "name": "busroutemap.github.io",
-  "version": "0.1.0",
+  "name": "kotodu.io",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
