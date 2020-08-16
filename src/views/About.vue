@@ -20,7 +20,7 @@
                 class="text-decoration-none">
                     <button
                     type="button"
-                    class="btn btn-dark btn-lg px-5"
+                    class="btn btn-dark btn-lg px-5 my-3"
                     >
                         制作実績
                     </button>
@@ -128,9 +128,10 @@ export default defineComponent({
             "OpenStreetMap"
         ];
         const introduceText = [
-            "東京都在住。SIer勤務、システムエンジニア・プログラマー見習い。",
+            "東京都在住。SIer勤務、システムエンジニア見習い。",
             "大学時代のバスマップ制作経験を通して、交通とITの関わりに興味を持つ。",
-            "何でも意欲的に取り組むのが自慢。現在は、Webアプリケーション開発や資格取得に挑戦している。",
+            "何でも意欲的に取り組むのが自慢。",
+            "現在は、個人でのWebアプリケーション開発や、資格取得に挑戦している。",
             "読書、まちあるき、弁当作りが趣味。"
         ];
         return {
