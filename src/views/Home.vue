@@ -3,8 +3,8 @@
         <home-header/>
         <!-- aboutへのボタン -->
         <section class="text-center">
-            <a
-            href="/about"
+            <router-link
+            to="/about"
             class="text-decoration-none">
                 <button
                 type="button"
@@ -12,7 +12,7 @@
                 >
                     ことづについて
                 </button>
-            </a>
+            </router-link>
         </section>
 
         <!-- SNSリスト -->
