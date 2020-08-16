@@ -18,26 +18,26 @@
                         <work-card
                         title="ttrmap"
                         description="鳥取の交通マップと地図を重ね合わせるWebアプリケーション"
-                        imgSrc="/img/qiita.svg"
+                        imgSrc="/img/works/ttrmap.png"
                         demoURL="https://kotodu.io/ttrmap"
                         githubURL="https://github.com/kotodu/ttrmap"
                         />
                         <work-card
                         title="鳥取＊busmap"
                         description="これまでに制作した、鳥取についてのバスマップシリーズ"
-                        imgSrc="/img/qiita.svg"
+                        imgSrc="/img/works/tottori.png"
                         demoURL="https://kotodu.io/tottori"
                         />
                         <work-card
                         title="卒業研究"
                         description="GTFSを元に、バス停向けのバス運行系統図を出力するシステム"
-                        imgSrc="/img/qiita.svg"
+                        imgSrc="/img/works/bsi.png"
                         githubURL="https://github.com/kotodu/Bus-Stops-Information-from-GTFS"
                         />
                         <work-card
                         title="illustrator-to-MapTiles"
                         description="フォルダごとにマップタイル画像を出力するIllustratorスクリプト"
-                        imgSrc="/img/qiita.svg"
+                        imgSrc="/img/works/i2M.png"
                         githubURL="https://github.com/kotodu/illustrator-to-MapTiles"
                         />
                     </div>
