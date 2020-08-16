@@ -16,7 +16,7 @@
 
                 <!-- worksへのボタン -->
                 <router-link
-                href="/works"
+                to="/works"
                 class="text-decoration-none">
                     <button
                     type="button"
