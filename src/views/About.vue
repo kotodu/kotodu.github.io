@@ -3,7 +3,7 @@
         <main>
             <!-- 自己紹介セクション -->
             <section
-            class="my-5 text-center">
+            class="my-5 w-75 mx-auto text-center">
                 <h1>ことづ</h1>
                 <h6 class="read">@Kotodu</h6>
 
@@ -37,7 +37,7 @@
                 </div>
 
                 <!-- コンテンツ -->
-                <div class="w-75 mx-auto py-2">
+                <div class="w-lg-75 mx-auto py-2">
                     <digest-box
                     title="全般"
                     description="得意とするスキル全般"

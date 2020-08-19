@@ -54,7 +54,7 @@
                 </div>
 
                 <!-- リスト -->
-                <div class="w-75 mx-auto">
+                <div class="w-lg-75 mx-auto">
                     <work-list
                     :lists="otherWorks"
                     />
@@ -107,7 +107,7 @@ export default defineComponent({
             },
             {
                 name:"ことづ個人サイト(本サイト)",
-                description:"BootstrapとVue.jsの練習として作成した個人サイト",
+                description:"BootstrapとVue.jsの練習で作成した個人サイト",
                 url:"https://github.com/kotodu/kotodu.github.io"
             }
         );

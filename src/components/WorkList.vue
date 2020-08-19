@@ -1,6 +1,6 @@
 <template>
     <div class="worklist">
-        <ul class="list-group-flush">
+        <ul class="list-group-flush px-0 mx-0">
             <li
             class="list-group-item"
             v-for="(work,i) in works"
