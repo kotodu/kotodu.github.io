@@ -113,7 +113,8 @@ export default defineComponent({
             "Vue.js",
             "Leaflet.js",
             "Bootstrap",
-            "Express.js"
+            "Express.js",
+            "React.js"
         ];
         const envs = [
             "Node.js",
