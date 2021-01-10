@@ -109,6 +109,10 @@ export default defineComponent({
                 name:"ことづ個人サイト(本サイト)",
                 description:"BootstrapとVue.jsの練習で作成した個人サイト",
                 url:"https://github.com/kotodu/kotodu.github.io"
+            },{
+                name:"illustrator-Path-Join",
+                description:"交点を補完して2つのパスを結合するillustrator拡張機能",
+                url:"https://github.com/kotodu/illustrator-path-join"
             }
         );
         return {
