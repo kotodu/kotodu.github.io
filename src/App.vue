@@ -1,20 +1,16 @@
 <template>
-    <div id="app">
-        <Navbar/>
-        <router-view/>
-    </div>
+  <div id="app">
+    <Navbar />
+    <router-view />
+  </div>
 </template>
+
 <script lang="ts">
-import Vue from 'vue'
-import Navbar from "./components/Navbar.vue";
-export default Vue.extend({
-    name:'App',
-    components:{
-        Navbar
-    }
+import Navbar from './components/Navbar.vue'
+import { defineComponent } from 'vue'
+export default defineComponent({
+  components: {
+    Navbar
+  }
 })
 </script>
-<style lang="scss">
-// 全体へbootstrapを適用
-@import "~bootstrap/scss/bootstrap";
-</style>
