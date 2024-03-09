@@ -21,7 +21,7 @@ import { defineComponent, computed } from 'vue'
 
 export default defineComponent({
   props: {
-    list: Array<String>,
+    list: Array<string>,
     imgSrc: String,
     title: String,
     description: String
