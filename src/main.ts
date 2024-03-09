@@ -1,16 +1,16 @@
-import Vue from 'vue'
+import { createApp } from 'vue'
 import router from './router'
 import App from './App.vue'
-Vue.config.productionTip = false
 
 // bootstrap導入
-import 'bootstrap';
+import './scss/styles.scss'
 
 // compositionAPI
-import VueCompositionApi from "@vue/composition-api";
-Vue.use(VueCompositionApi);
+// import VueCompositionApi from "@vue/runtime-dom";
+// Vue.use(VueCompositionApi);
 
-new Vue({
-  router,
-  render: h => h(App)
-}).$mount('#app')
+const app = createApp(App)
+
+app.use(router)
+
+app.mount('#app')
