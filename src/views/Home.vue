@@ -9,7 +9,7 @@
     </section>
 
     <!-- SNSリスト -->
-    <section id="icons" class="container d-flex w-50 row g-5 my-auto text-center">
+    <section id="icons" class="container d-flex w-50 row g-5 my-auto mx-auto">
       <icon-sns-link
         :aHref="snsLink.aHref"
         :imgName="snsLink.imgName"
